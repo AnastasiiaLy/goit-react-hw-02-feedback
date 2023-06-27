@@ -1,0 +1,24 @@
+.statistics__header {
+  text-align: center;
+
+  font-family: 'Sriracha', cursive;
+  margin-top: 50px;
+
+  color: #26474e;
+}
+
+.statistics {
+  color: #333333;
+  list-style-type: none;
+  margin-left: 20px;
+  padding: 0;
+}
+
+.statistics li {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.statistics li:last-child {
+  color: green;
+}
