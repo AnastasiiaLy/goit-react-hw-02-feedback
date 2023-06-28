@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 
-import { Statistics } from './Statistics/Statistics';
-import { FeedbackOptions } from './FeedbackBtn/FeedbackOptions';
-
-import { Section } from './Section/Section';
+import { Statistics } from './Statistics';
+import { FeedbackOptions } from './FeedbackOptions';
+import { Section } from './Section';
 
 // import css from './FeedbackBtn/FeedbackOptions.module.css';
 // import css from './Statistics/Statistics.module.css';
