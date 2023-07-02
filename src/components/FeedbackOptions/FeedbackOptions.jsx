@@ -1,6 +1,7 @@
 import css from './FeedbackOptions.module.css';
 import { IoIosHeartEmpty, IoIosHeartHalf } from 'react-icons/io';
 import { IoHeartDislikeOutline } from 'react-icons/io5';
+import PropTypes from 'prop-types';
 
 export const FeedbackOptions = ({
   onGoodFeedback,
@@ -35,4 +36,10 @@ export const FeedbackOptions = ({
       </button>
     </div>
   );
+};
+
+FeedbackOptions.propTypes = {
+  onGoodFeedback: PropTypes.func.isRequired,
+  onNeutralFeedback: PropTypes.func.isRequired,
+  onBadFeedback: PropTypes.func.isRequired,
 };
